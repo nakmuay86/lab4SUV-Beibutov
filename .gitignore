@@ -1,1 +1,26 @@
+# --- Служебные файлы операционных систем ---
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE и редакторы ---
+.idea/
+.vscode/
+*.swp
+*~
+
+# --- Python: кэш, виртуальные окружения, артефакты сборки ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# --- Переменные окружения и секреты ---
+.env
+.env.*
+!.env.example
+
+# --- Логи ---
+*.log
